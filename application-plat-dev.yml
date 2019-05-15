@@ -1,0 +1,10 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: YOUGOU-PLAT
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql:///yougou?userSSL=false&useUnicode=true&characterEncoding=utf8
+    username: root
+    password: root
