@@ -10,3 +10,10 @@ zuul:
     plat:
       path: /plat/**
       service-id: yougou-plat
+    product:
+      path: /product/**
+      service-id: yougou-product
+yougou-product:
+  ribbon:
+    ConnectTimeout: 1000
+    ReadTimeout: 5000
