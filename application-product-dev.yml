@@ -1,0 +1,12 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: YOUGOU-PRODUCT
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql:///yougou_product?useSSL=false&useUnicode=true&characterEncoding=utf8
+    username: root
+    password: root
+mybatis-plus:
+  type-aliases-package: cn.itsource.yougou.domain,cn.itsource.yougou.query
