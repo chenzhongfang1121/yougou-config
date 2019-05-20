@@ -22,5 +22,5 @@ yougou-product:
     ReadTimeout: 5000
 yougou-common:
   ribbon:
-    ConnectTimeout: 2000
+    ConnectTimeout: 1000
     ReadTimeout: 5000
